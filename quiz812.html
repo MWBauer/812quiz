@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Online Quiz</title>
+        <link href="Css/file.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <p>Online Quiz</p>
+        <form id = "myQuiz" onsubmit = "checkAnswers()" action = "">
+        <p>Select the name of the tip that goes with the image shown:<br/>
+            <img src="EPT.gif" alt="mystery tip"/>
+            <br/>
+            <input type = "radio" name = "radiobutton" value = "CPE"/>
+            <label>Common Programming Error</label>
+            <input type="radio" name="radiobutton" value="EPT/>
+            <label>Error-Prevention tip</label>
+            <input type="radio" name="radiobutton" value="PERF"/>
+            <label>Performance tip</label>
+            <input type="radio" name="radiobutton" value="PORT"/>
+            <label>Portability Tip</label><br/>
+            <input type ="submit" name="submit" value="Submit"/>
+            <input type="reset" name="reset" value="Reset"/>
+        </p>
+     </form>
+   
+    <script src="Js/file.js"></script>
+</body>
+</html>
